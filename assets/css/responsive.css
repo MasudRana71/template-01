@@ -1,0 +1,22 @@
+@media (min-width: 0px) and (max-width: 767px) {
+
+    /* navebar */
+    .navbar-nav, .nav-item a{
+      text-align: center;
+      margin: 0px ;
+      padding: 0px ;
+    }
+    .banner h1 p a {
+        margin: 0px ;
+        padding: 0px ;
+    }
+  
+}
+@media(min-width: 768px) and (max-width:1450px){
+
+    /* banner */
+    .banner{
+        height: 500px;
+    }
+    
+}

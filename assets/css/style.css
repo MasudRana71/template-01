@@ -1,0 +1,162 @@
+/* nabbar start */
+.navbar-brand{
+    color: #333333;
+    font-size: 24px ;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 52px ;
+
+}
+.navbar-nav, .nav-item a{
+    color: #333333;
+    font-size: 13px ;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 53px ;
+
+}
+.nav-item, .btn,.fa-magnifying-glass{
+    border: none;
+}
+.navbar-nav, .nav-item a:hover{
+    color: #5234f9;
+    
+}
+/* nabbar end */
+/* 1st banner start  */
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    color: #ffffff;
+    font-size: 60px ;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 64px ;
+}
+.banner p{
+    color: #ffffff;
+    font-size: 14px ;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 24px ;
+}
+.banner , .btn-filled{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    background-color:#5234f9;
+}
+.banner, .btn-close-white{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    color: #ffffff;
+    border: 1px solid white;
+}
+.banner , .btn-filled:hover{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    background-color:#1f04b6;
+    color: #646363;
+}
+.banner , .btn-close-white:hover{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    color: black;
+    background-color:#ffffff;
+}
+/*1st banner end  */
+/* 2nd banner start  */
+.banner-2{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/photo-1451417379553-15d8e8f49cde.jpg) no-repeat;
+    background-size: cover;
+}
+.banner-2 h1{
+    color: #ffffff;
+    font-size: 60px ;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 64px ;
+}
+.banner-2 p{
+    color: #ffffff;
+    font-size: 14px ;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 24px ;
+}
+.banner-2 , .btn-filled{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    background-color:#5234f9;
+}
+.banner-2, .btn-close-white{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    color: #ffffff;
+    border: 1px solid white;
+}
+.banner-2 , .btn-filled:hover{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    background-color:#1f04b6;
+    color: #646363;
+}
+.banner-2 , .btn-close-white:hover{
+    padding: 10px 40px;
+    margin: 0px 10px;
+    color: black;
+    background-color:#ffffff;
+}
+/* 1st banner end  */
+/* card-image */
+.card-image .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.6s  ease-in-out;
+    cursor: pointer;
+    background: #333333;
+}
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+.card-image:hover .overlay{
+    cursor: pointer;
+    opacity: 0.8;
+   
+}
+
+
+/* card-image */
+
+/* icon */
+.icon i{
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.icon .fa-brands{
+    opacity: 0.5;
+    
+}
+.icon .fa-brands:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #5234f9;
+}
+.socialMedia p span:hover{
+    color: #5234f9;
+}
+.socialMedia i:hover{
+    color: #5234f9;
+}
